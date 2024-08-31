@@ -1,0 +1,30 @@
+        //SELECT * FROM `user`
+//        Criteria criteria = session.createCriteria(User.class);
+//        Criterion criterion = Restrictions.like("mobile", "071", MatchMode.START);
+//        
+//        criteria.add(criterion);
+
+//        Criterion criterion1 = Restrictions.eq("name", "Sahan");
+//        criteria.add(criterion1);
+//
+//        Criterion criterion2 = Restrictions.eq("mobile", "0715221982");
+//        criteria.add(criterion2);
+        
+
+//        ArrayList<User> userList = (ArrayList<User>) criteria.list();
+//
+//        for (User user : userList) {
+//            System.out.println(user.getId());
+//        }
+
+        //SELECT * FROM `user`
+//        User user = (User) session.load(User.class, 1);
+//        System.out.println(user.getId());
+//        System.out.println(user.getName());
+//        System.out.println(user.getMobile());
+///////////    Update User /////////////
+//        user.setName("Gayan");
+//        session.update(user);
+//
+//        session.beginTransaction().commit();
+///////////////////////////////////////
